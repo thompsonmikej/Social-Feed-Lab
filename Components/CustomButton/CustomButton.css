@@ -1,0 +1,26 @@
+.inactiveButton {
+    background-color:blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3em;
+    border-radius: 50%;
+}
+
+.inactive{
+    background-color: gray;
+}
+
+.activeThumbsUp{
+    background-color: green;
+}
+
+.activeThumbsDown{
+    background-color: red;
+}
+
+button:hover{
+    background-color: purple;
+    color: white;
+}

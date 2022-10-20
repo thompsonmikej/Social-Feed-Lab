@@ -31,8 +31,10 @@ const PostForm = (props) => {
                 <label>Post</label>
                 <input type='text' className='form-control'  onChange={(event) => setUserPost(event.target.value)} value={userPost} />
             </div>
-            {/* <button type='submit' className='btn btn-primary'>Create</button> */}
-            <CustomButton CustomButton={ CustomButton}
+            {/* <div>
+                <button type='submit' className='btn btn-primary'>Create</button>
+                <CustomButton CustomButton={CustomButton} />
+            </div> */}
         </form>
     );
 }

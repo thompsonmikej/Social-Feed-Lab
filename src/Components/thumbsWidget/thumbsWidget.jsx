@@ -1,5 +1,12 @@
-// import { getQueriesForElement } from "@testing-library/react";
+import './styles.css';
+import CustomButton from "components/CustomButton/CustomButton";
 
-// import the behavior from CustomButton
-// thumbsUp: green
-// thumbsdown: red
+function App() {
+    return (
+    <div className="App">
+    <CustomButton message="Create"/>
+    </div>
+    );
+}
+
+export default App; 

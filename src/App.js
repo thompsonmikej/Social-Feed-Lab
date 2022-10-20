@@ -15,32 +15,13 @@ function App() {
   }
   return (
     <div className='border-box'>
-      <NavBar NavBar={NavBar} />
-        <PostForm PostForm={PostForm} />
-        {/* <PostList PostList={PostList} /> */}
-       {/* <CustomButton message="Create" /> */}
+      <NavBar />
+      <PostForm PostForm={PostForm} />
+        <PostList PostList={PostList} />
+   
         
     </div>
 
-    // <div className='container-fluid'>
-    //     <div className='col-md-6'>
-    //       <div className='border-box'>
-    //         <CreatePostForm addNewPost={addNewPost} />
-    //       </div>
-    //        <div className='border-box'>
-    //          <PostList PostList={PostList} />
-    //        </div>
-    //      </div>
-    //      <div className='col-md-6'>
-    //        <div className='border-box'>
-    // //         <Post Post={Post} />
-    //      </div>
-    //      </div>
-    //    </div>
   );
 }
-
-
-
 export default App;
-

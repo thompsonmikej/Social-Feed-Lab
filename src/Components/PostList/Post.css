@@ -1,18 +1,21 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<i class="glyphicon glyphicon-thumbs-up"></i>
 
-p{
-    padding-left: 2em;
+
+p {
+    padding-left: 4em;
 }
 
 .userName{
     font-weight: bold;
 }
 
-i:hover-red{
-    color: red;
+i{
+    font-size: 1.5em;
+    color:gray;
+}
+i:hover{
+    color: black;
 }
 
-i:hover-green {
+i:active {
     color: green;
 }

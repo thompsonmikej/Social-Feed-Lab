@@ -3,7 +3,7 @@ import './NavBar.css';
 function NavBar() {
     return (
         <div className='row'>
-            <h3 className='NavBar'>Social<small className='text-muted'>Feed</small></h3>
+            <h3 className='NavBar'>Social<span className='text-muted'>Feed</span></h3>
         </div>
     );
 }

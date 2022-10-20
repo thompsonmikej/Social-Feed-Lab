@@ -8,7 +8,7 @@ const CustomButton = (props) => {
     function thumbsHandleClick() {
         // toggle between inactive and active states
         if (buttonClass ==="inactive") {
-            setButtonClass("activeThumbsUp");
+            setButtonClass("active");
         }
         else {
             setButtonClass("inactive")
@@ -16,8 +16,7 @@ const CustomButton = (props) => {
 
         return (
             <div>
-                {/* <button type='submit' className='btn btn-primary'>Create</button> */}
-                {/* <button type='submit' className={buttonClass} onClick={handleClick}{props.changeColor}></button> */}
+                {/* <button type='submit' className={buttonClass} onClick={handleClick}{props.changeColor}>Create</button> */}
             </div> //There is no message, but the change of color/state from active to inactive
         )
     }

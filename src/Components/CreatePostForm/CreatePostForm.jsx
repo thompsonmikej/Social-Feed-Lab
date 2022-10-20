@@ -6,8 +6,8 @@ import './CreatePostForm.css';
 
 const PostForm = (props) => {
 // hooks
-    const [userName, setUserName] = useState('Your name here');
-    const [userPost, setUserPost] = useState('Start your post');
+    const [userName, setUserName] = useState('First name and Last name here');
+    const [userPost, setUserPost] = useState('Write your post here');
 
     function handleSubmit(postEvent) {
         postEvent.preventDefault();
@@ -18,7 +18,7 @@ const PostForm = (props) => {
         console.log(newPost);
         //what is props.addNewPost and what does it do with this newPost object created here^^
         //what review question is this illustrating?  
-        props.addNewPost(newPost)
+        props.addNewPostProperty(newPost)
     }
 
     return (
@@ -32,8 +32,8 @@ const PostForm = (props) => {
                 <input type='text' className='form-control'  onChange={(event) => setUserPost(event.target.value)} value={userPost} />
             </div>
             <div>
-                <button type='submit' className='create hover btn btn-primary'>Create
-                    <CustomButton CustomButton={CustomButton} />
+                <button type='submit' className='create btn btn-primary'>Create
+                    <CustomButton />
                 </button>
             </div>
         </form>

@@ -3,9 +3,9 @@ import "./CustomButton.css"
 
 const CustomButton = (props) => {
 //default for thumbswidgets
-    const [buttonClass, setButtonClass] = useState("inactiveThumbs")
+    const [buttonClass, setButtonClass] = useState("inactive")
 
-    function thumbsHandleClick() {
+    function handleClick() {
         // toggle between inactive and active states
         if (buttonClass ==="inactive") {
             setButtonClass("active");
@@ -16,7 +16,7 @@ const CustomButton = (props) => {
 
         return (
             <div>
-                {/* <button type='submit' className={buttonClass} onClick={handleClick}{props.changeColor}>Create</button> */}
+                <button type='submit' className={buttonClass} onClick={handleClick}></button>
             </div> //There is no message, but the change of color/state from active to inactive
         )
     }

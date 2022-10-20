@@ -1,5 +1,8 @@
 .NavBar {
         margin: 1em;
+        background-color: aqua;
 }
 
-.text-muted {}
+.text-muted {
+        color: gray;
+}

@@ -3,7 +3,7 @@ import PostList from './Components/PostList/PostList.jsx';
 import PostForm from './Components/CreatePostForm/CreatePostForm.jsx'
 import NavBar from './Components/NavBar/NavBar.jsx'
 import './App.css';
-// import CustomButton from "components/CustomButton/CustomButton";
+
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
     <div className='border-box'>
       <NavBar />
       <PostForm PostForm={PostForm} />
-        <PostList PostList={PostList} />
+        {/* <PostList PostList={PostList} /> */}
    
         
     </div>

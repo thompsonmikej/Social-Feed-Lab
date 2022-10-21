@@ -1,6 +1,5 @@
 .form-group{
-    background-color: lightblue;
-    padding: .5em;
+     padding-left: 1rem;
 }
 
 /* .btn {} */
@@ -9,3 +8,17 @@
     margin-top: 1em;
 
 }  */
+
+.form-control {
+    display: block;
+    width: 70%;
+    height: 3rem;
+}
+
+.form-post{
+    height: 6rem;
+}
+
+.form-grid{
+    padding-left: 1rem;
+}

@@ -13,10 +13,7 @@ const PostList = (props) => {
                         <p>{entry.index}</p>
                         <p className='userName'>{entry.userName}</p>
                         <p>{entry.userPost}</p>
-                        <span>
-                            <i className=" hover glyphicon glyphicon-thumbs-up"> </i>
-                            <i className=" hover glyphicon glyphicon-thumbs-down"> </i>
-                        </span>
+                    
                         <hr />
                     </React.Fragment>
                 )

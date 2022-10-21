@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PostList from './Components/PostList/PostList.jsx';
 import PostForm from './Components/CreatePostForm/CreatePostForm.jsx'
 import NavBar from './Components/NavBar/NavBar.jsx'
+import CustomButton from './Components/CustomButton/CustomButton.jsx';
 import './App.css';
 
 
@@ -27,7 +28,8 @@ function App() {
         </div>     
       <div className='col-md-6'>
         <div className='border-box'>
-      <PostList parentList={entries} />
+            <PostList parentList={entries} />
+            <CustomButton />
           </div>
         </div>
       </div>

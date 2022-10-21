@@ -15,9 +15,18 @@ const CustomButton = (props) => {
         }
 
         return (
-            <div>
-                <button type='submit' className={buttonClass} onClick={handleClick}></button>
-            </div> //There is no message, but the change of color/state from active to inactive
+            <React.Fragment>
+            <span>
+                <button type='submit' className={buttonClass} onClick={handleClick}>
+                    <i className="glyphicon glyphicon-thumbs-up"> </i>
+                </button>
+            </span> //There is no message, but the change of color/state from active to inactive
+            <span>
+                <button type='submit' className={buttonClass} onClick={handleClick}>
+                    <i className="glyphicon glyphicon-thumbs-down"> </i>
+                </button>
+                </span>
+            </React.Fragment>
         )
     }
 }

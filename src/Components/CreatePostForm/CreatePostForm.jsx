@@ -29,7 +29,7 @@ const PostForm = (props) => {
             </div>
             <div className='form-group'>
                 <label>Post</label>
-                <input type='text' className='form-control'  onChange={(event) => setUserPost(event.target.value)} value={userPost} />
+                <input type='text' className='form-control form-post'  onChange={(event) => setUserPost(event.target.value)} value={userPost} />
             </div>
             <div>
                 <button type='submit' className='create btn btn-primary'>Create

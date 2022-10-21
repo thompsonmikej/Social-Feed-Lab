@@ -1,21 +1,15 @@
 
 
 p {
-    padding-left: 4em;
+    padding-left: 2em;
 }
 
 .userName{
     font-weight: bold;
 }
 
-i{
-    font-size: 1.5em;
-    color:gray;
-}
-i:hover{
-    color: black;
-}
 
-i:active {
-    color: green;
+.border-box {
+    border-radius: 2rem;
+    border: 0.25rem solid lightgray;
 }

@@ -6,8 +6,8 @@ import './CreatePostForm.css';
 
 const PostForm = (props) => {
 // hooks
-    const [userName, setUserName] = useState('First name and Last name here');
-    const [userPost, setUserPost] = useState('Write your post here');
+    const [userName, setUserName] = useState('First and Last here');
+    const [userPost, setUserPost] = useState('Write here');
 
     function handleSubmit(postEvent) {
         postEvent.preventDefault();
@@ -23,7 +23,7 @@ const PostForm = (props) => {
 
     return (
         <form onSubmit={handleSubmit} className='form-grid'>
-            <div className='form-group'>
+            <div className='form-group top-label'>
                 <label>Name</label>
                 <input type='text' className='form-control' onChange={(event) => setUserName(event.target.value)} value={userName} />
             </div>

@@ -1,18 +1,19 @@
 .form-group{
-     padding-left: 8%;
-     width: 35rem;
+     padding-left: 5%;
+     width: 38rem;
+    display: flex;
+    align-content: center;
 }
 
 .label{
     display: grid;
     justify-content: start;
-    margin-left: -15%;
+    margin-left: -10%;
 }
 
-/* .btn-primary{
-    margin-top: 1em;
-
-}  */
+.top-label{
+    margin-top: 2rem;
+}
 
 .form-control {
     display: block;

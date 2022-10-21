@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <div className='container-fluid'>
-      <div className='border-box'>
+      <div className='NavBar'>
         <NavBar />       
       </div>
       <div className='column'>

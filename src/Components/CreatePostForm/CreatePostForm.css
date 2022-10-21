@@ -1,8 +1,13 @@
 .form-group{
-     padding-left: 1rem;
+     padding-left: 8%;
+     width: 35rem;
 }
 
-/* .btn {} */
+.label{
+    display: grid;
+    justify-content: start;
+    margin-left: -15%;
+}
 
 /* .btn-primary{
     margin-top: 1em;
@@ -11,8 +16,9 @@
 
 .form-control {
     display: block;
-    width: 70%;
+    width: 100%;
     height: 3rem;
+    margin-left:10%;
 }
 
 .form-post{
@@ -21,4 +27,9 @@
 
 .form-grid{
     padding-left: 1rem;
+    display: contents;
+    grid-template-areas:
+        "top-l top-m top-r"
+        "bot-l bot-m bot-r";
+                
 }

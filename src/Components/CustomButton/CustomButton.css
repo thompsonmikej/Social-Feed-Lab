@@ -1,6 +1,4 @@
-
-
-.inactiveButton {
+    .inactiveButton {
     background-color:blue;
     color: white;
     text-align: center;
@@ -11,7 +9,7 @@
 }
 
 .create{
-    background-color: #243552;
+    background-color: #212f48;
     color: white;
     text-weight: bold;
     border-radius: 35rem;
@@ -19,15 +17,20 @@
     height: 3rem;
     padding: 0rem;
     font-size: 2rem;
+    margin-left: 42rem;
+        
+}
+button{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .inactive{
     color: gray;
-}
-
-.active{
-    color: green;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .activeThumbsDown{
@@ -36,27 +39,31 @@
 }
 
 button:hover{
-    background-color: #212f48;
+    background-color: #243552;
     color: white;
-    width: 16rem;
-}
-
-i {
-    font-size: 2rem;
-    color: gray;
+    height: 4rem;
 }
 
 i:hover {
-    color: black;
+    color: #243552;
+    font-size: 4rem;
 }
 
 i:active {
     color: green;
-    font-size: 4rem;
+
 }
   
-   
 .glyphicon {
-    position: relative;
-    top: 2px;
+    position: none;
+    top: rem;
+    font-size: 3rem;
+    color: gray;
+    display:inline;
+    margin: -1rem;
+    
+}
+
+.glyphicon-thumbs-down:active{
+    color: red;
 }

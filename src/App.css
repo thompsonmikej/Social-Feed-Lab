@@ -6,3 +6,7 @@
     padding: 1em;   
 }
 
+.column{
+   display: flex;
+   justify-content: center;
+ }

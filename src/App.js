@@ -17,19 +17,18 @@ function App() {
   }
   return (
     <div className='container-fluid'>
-      <div className='row'>
-        <div className='col-md-6'>
-          <div className='border-box'>
-              <NavBar />
-           </div>
-          <div className='border-box'>
-      <PostForm addNewPostProperty={addNewPost} /> {/* akin to AddNewEntry  */}
+      <div className='border-box'>
+        <NavBar />       
+      </div>
+      <div className='column'>
+        <div className='col-md-6'>               
+           <div className='border-box'>
+            <PostForm addNewPostProperty={addNewPost} /> {/* akin to AddNewEntry  */}
           </div>
-        </div>     
-      <div className='col-md-6'>
+          <CustomButton />
         <div className='border-box'>
             <PostList parentList={entries} />
-            <CustomButton />
+
           </div>
         </div>
       </div>
